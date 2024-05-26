@@ -46,6 +46,7 @@ const Navbar = () => {
             <Link to={"/about"} onClick={() => setShow(!show)}>
               About Us
             </Link>
+            <a href="https://zeecare-admin-pannel.netlify.app" target="_blank" rel="noopener noreferrer">Admin</a>
           </div>
           {isAuthenticated ? (
             <button className="logoutBtn btn" onClick={handleLogout}>
